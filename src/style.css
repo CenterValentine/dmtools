@@ -1,0 +1,91 @@
+#layout-container {
+  height: calc(100vh - 100px); /* Adjust height to accommodate the header */
+}
+
+#header {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+
+
+#layout-container { 
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  .gl-content {
+    background-color: #2b2b2b !important; /* Dark panel background */
+  }
+  
+  .gl-component {
+    color: #ffffff !important; /* Ensures all text inside components is white */
+
+
+  }
+
+  .lm_header {
+    display: flex !important; /* Ensure header (tabs) is visible */
+  }
+  
+.lm_content {
+    padding: 20px; /* Add space inside the content area */
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+  .lm_tab {
+    display: inline-block !important; /* Ensure individual tabs are visible */
+    background-color: #444; /* Dark tab background */
+    color: #fff; /* Light text */
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .lm_tab.lm_active {
+    background-color: #666; /* Highlight active tab */
+  }
+  
+
+  /* Ensure the header (tabs area) is visible */
+.lm_header {
+    display: flex !important;
+    background-color: #333; /* Dark header background */
+    border-bottom: 1px solid #444; /* Subtle border for separation */
+  }
+  
+  /* Style for individual tabs */
+  .lm_tab {
+    display: inline-block !important;
+    background-color: #555; /* Tab background */
+    color: #fff; /* Tab text color */
+    padding: 8px 12px;
+    margin: 2px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  /* Highlight active tab */
+  .lm_tab.lm_active {
+    background-color: #007acc; /* Blue for active tab */
+    color: #fff;
+  }
+  
+  /* Add some hover effects for better interactivity */
+  .lm_tab:hover {
+    background-color: #007acc;
+    color: #fff;
+  }
+  
